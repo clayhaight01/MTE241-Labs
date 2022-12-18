@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+".\objects\sim\lfsr113.o"
+".\objects\sim\random.o"
+".\objects\sim\retarget.o"
+".\objects\sim\uart.o"
+".\objects\sim\main.o"
+"..\..\..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Library\ARM\RTX_CM3.lib"
+".\objects\sim\rtx_lib.o"
+".\objects\sim\rtx_config.o"
+".\objects\sim\startup_lpc17xx.o"
+".\objects\sim\system_lpc17xx.o"
+--strict --scatter ".\Objects\SIM\lab4.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\SIM\lab4.map" -o .\Objects\SIM\lab4.axf

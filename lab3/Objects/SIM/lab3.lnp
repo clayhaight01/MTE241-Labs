@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+".\objects\sim\retarget.o"
+".\objects\sim\uart.o"
+".\objects\sim\main.o"
+"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Library\ARM\RTX_CM3.lib"
+".\objects\sim\rtx_lib.o"
+".\objects\sim\rtx_config.o"
+".\objects\sim\startup_lpc17xx.o"
+".\objects\sim\system_lpc17xx.o"
+--library_type=microlib --strict --scatter ".\Objects\SIM\lab3.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\lab3.map" -o .\Objects\SIM\lab3.axf

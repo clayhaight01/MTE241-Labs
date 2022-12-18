@@ -1,0 +1,15 @@
+--cpu Cortex-M3
+".\objects\ram\lfsr113.o"
+".\objects\ram\random.o"
+".\objects\ram\retarget.o"
+".\objects\ram\uart.o"
+".\objects\ram\main.o"
+"..\..\..\..\..\..\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Library\ARM\RTX_CM3.lib"
+".\objects\ram\rtx_lib.o"
+".\objects\ram\rtx_config.o"
+".\objects\ram\startup_lpc17xx.o"
+".\objects\ram\system_lpc17xx.o"
+--strict --scatter ".\Objects\RAM\lab4.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\RAM\lab4.map" -o .\Objects\RAM\lab4.axf

@@ -1,0 +1,60 @@
+Dependencies for Project 'lab3', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::.\ARMCC
+F (.\src\Retarget.c)(0x61789C30)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\Include"-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Include"-I"D:\Programs\MDK 5.30\Keil\LPC1700_DFP\2.7.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -D__RTGT_UART-o .\objects\sim\retarget.o --omf_browse .\objects\sim\retarget.crf --depend .\objects\sim\retarget.d)
+I (D:\Programs\MDK 5.30\ARM\ARMCC\include\stdio.h)(0x5E53F91C)
+I (D:\Programs\MDK 5.30\ARM\ARMCC\include\rt_misc.h)(0x5E53F91A)
+I (D:\Programs\MDK 5.30\ARM\ARMCC\include\stddef.h)(0x5E53F91C)
+I (D:\Programs\MDK 5.30\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (src\uart.h)(0x61789C30)
+F (.\src\uart.c)(0x61789F15)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\Include"-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Include"-I"D:\Programs\MDK 5.30\Keil\LPC1700_DFP\2.7.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -D__RTGT_UART-o .\objects\sim\uart.o --omf_browse .\objects\sim\uart.crf --depend .\objects\sim\uart.d)
+I (D:\Programs\MDK 5.30\Keil\LPC1700_DFP\2.7.0\Device\Include\lpc17xx.h)(0x5E1E0B04)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (D:\Programs\MDK 5.30\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F79E2)
+I (D:\Programs\MDK 5.30\Keil\LPC1700_DFP\2.7.0\Device\Include\system_LPC17xx.h)(0x584985E2)
+I (src\uart.h)(0x61789C30)
+F (.\main.c)(0x6178C64A)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\Include"-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Include"-I"D:\Programs\MDK 5.30\Keil\LPC1700_DFP\2.7.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -D__RTGT_UART-o .\objects\sim\main.o --omf_browse .\objects\sim\main.crf --depend .\objects\sim\main.d)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5E83AF8E)
+I (D:\Programs\MDK 5.30\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (D:\Programs\MDK 5.30\ARM\ARMCC\include\stddef.h)(0x5E53F91C)
+I (D:\Programs\MDK 5.30\Keil\LPC1700_DFP\2.7.0\Device\Include\LPC17xx.h)(0x5E1E0B04)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F79E2)
+I (D:\Programs\MDK 5.30\Keil\LPC1700_DFP\2.7.0\Device\Include\system_LPC17xx.h)(0x584985E2)
+I (D:\Programs\MDK 5.30\ARM\ARMCC\include\stdio.h)(0x5E53F91C)
+F (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Library\ARM\RTX_CM3.lib)(0x5E8F79EA)()
+F (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Source\rtx_lib.c)(0x5E83AF8E)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\Include"-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Include"-I"D:\Programs\MDK 5.30\Keil\LPC1700_DFP\2.7.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -D__RTGT_UART-o .\objects\sim\rtx_lib.o --omf_browse .\objects\sim\rtx_lib.crf --depend .\objects\sim\rtx_lib.d)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (D:\Programs\MDK 5.30\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (.\RTE\CMSIS\RTX_Config.h)(0x61789F15)
+I (.\RTE\_Target_1\RTE_Components.h)(0x61789C75)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x5E8F79EA)
+I (D:\Programs\MDK 5.30\ARM\ARMCC\include\stddef.h)(0x5E53F91C)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5E83AF8E)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Include\rtx_evr.h)(0x5E83AF8E)
+F (RTE\CMSIS\RTX_Config.c)(0x5E83AF8E)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\Include"-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Include"-I"D:\Programs\MDK 5.30\Keil\LPC1700_DFP\2.7.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -D__RTGT_UART-o .\objects\sim\rtx_config.o --omf_browse .\objects\sim\rtx_config.crf --depend .\objects\sim\rtx_config.d)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (D:\Programs\MDK 5.30\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Include\rtx_os.h)(0x5E8F79EA)
+I (D:\Programs\MDK 5.30\ARM\ARMCC\include\stddef.h)(0x5E53F91C)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5E83AF8E)
+F (RTE\CMSIS\RTX_Config.h)(0x61789F15)()
+F (RTE\Device\LPC1768\RTE_Device.h)(0x5D5C2A1A)()
+F (RTE\Device\LPC1768\startup_LPC17xx.s)(0x61789DA5)(--cpu Cortex-M3 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\CMSIS-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\Include"-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Include"-I"D:\Programs\MDK 5.30\Keil\LPC1700_DFP\2.7.0\Device\Include"--pd "__UVISION_VERSION SETA 530" --pd "_RTE_ SETA 1" --pd "LPC175x_6x SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_lpc17xx.lst --xref -o .\objects\sim\startup_lpc17xx.o --depend .\objects\sim\startup_lpc17xx.d)
+F (RTE\Device\LPC1768\system_LPC17xx.c)(0x5E1E0B04)(--c99 -c --cpu Cortex-M3 -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections-I.\RTE\CMSIS-I.\RTE\Device\LPC1768-I.\RTE\_Target_1-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include"-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\Include"-I"D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\RTOS2\RTX\Include"-I"D:\Programs\MDK 5.30\Keil\LPC1700_DFP\2.7.0\Device\Include"-D__UVISION_VERSION="530" -D_RTE_ -DLPC175x_6x -D_RTE_ -D__RTGT_UART-o .\objects\sim\system_lpc17xx.o --omf_browse .\objects\sim\system_lpc17xx.crf --depend .\objects\sim\system_lpc17xx.d)
+I (D:\Programs\MDK 5.30\ARM\ARMCC\include\stdint.h)(0x5E53F91C)
+I (D:\Programs\MDK 5.30\Keil\LPC1700_DFP\2.7.0\Device\Include\LPC17xx.h)(0x5E1E0B04)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F79E2)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F79E2)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83AF82)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F79E2)
+I (D:\Programs\MDK 5.30\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F79E2)
+I (D:\Programs\MDK 5.30\Keil\LPC1700_DFP\2.7.0\Device\Include\system_LPC17xx.h)(0x584985E2)
